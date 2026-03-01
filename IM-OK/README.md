@@ -98,7 +98,7 @@ Quote service: `src/utilities/fetchQuote.js`
 - Categories: `success,wisdom,inspirational,faith,happiness,courage,humor,love`
 
 ## Deployment (Vercel)
-[Link to IM OK](URL)
+[Link to IM OK](https://final-project-mvp-im-ok-michael-hos-projects-00257bb5.vercel.app/)
 
 ## Screenshots of Application
 ![Home page](public/Home.png)
