@@ -111,6 +111,9 @@ npm run build
 
 ## Screenshots
 
+![Home (pre login) page](public/Home%20(pre%20login).png)
+![Login page](public/Login.png)
+![Register page](public/Register.png)
 ![Home page](public/Home.png)
 ![Dashboard page](public/Dashboard.png)
 ![Caregiver page](public/Caregiver.png)
