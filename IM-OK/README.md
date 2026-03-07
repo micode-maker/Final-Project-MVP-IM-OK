@@ -120,3 +120,8 @@ npm run build
 
 - Authentication and JWT run fully in the frontend for course scope.
 - Because this is a frontend-only app, user accounts are stored in browser storage.
+
+## Future Enchancements
+
+- Backend integration
+- Further development on profile page, add check-in window preferences and adjustable user information.
