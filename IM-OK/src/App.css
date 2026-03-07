@@ -92,6 +92,11 @@
   text-align: center;
 }
 
+.nav-button-logout {
+  cursor: pointer;
+  width: 100%;
+}
+
 .nav-button.is-active {
   background: #247d83;
   border-color: #dce8f4;
@@ -300,6 +305,64 @@
   text-align: center;
 }
 
+.auth-panel {
+  margin: 0 auto;
+  max-width: 34rem;
+  width: 100%;
+}
+
+.auth-subtitle {
+  color: #4f6272;
+  margin: 0 0 1rem;
+}
+
+.auth-form {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.auth-field {
+  color: #1d3e5a;
+  display: grid;
+  font-weight: 700;
+  gap: 0.3rem;
+}
+
+.auth-field input {
+  border: 1px solid #c8dceb;
+  border-radius: 0.65rem;
+  padding: 0.65rem 0.75rem;
+}
+
+.auth-submit {
+  background: #247d83;
+  border: none;
+  border-radius: 0.7rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 800;
+  padding: 0.75rem 1rem;
+}
+
+.auth-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.auth-error {
+  color: #a13030;
+  margin: 0;
+}
+
+.auth-switch {
+  margin: 1rem 0 0;
+}
+
+.auth-switch a {
+  color: #247d83;
+  font-weight: 800;
+}
+
 @media (min-width: 48rem) {
   .app {
     padding: 1.5rem;
@@ -310,7 +373,7 @@
   }
 
   .nav-list {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   }
 
   .home-page .panel {
