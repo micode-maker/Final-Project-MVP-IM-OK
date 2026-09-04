@@ -54,10 +54,11 @@ function Register() {
 
   return (
     <main className="page auth-page">
-      <Header title="Register" subtitle="Create your secure IM OK account." />
+      <Header eyebrow="Get started" title="Register" subtitle="Create your secure IM OK account." />
       <NavButtons />
 
       <section className="panel auth-panel">
+        <p className="eyebrow">New account</p>
         <h2>Create your account</h2>
         <p className="auth-subtitle">Register to look at dashboard and caregiver data.</p>
 

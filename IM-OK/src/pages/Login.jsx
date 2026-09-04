@@ -46,10 +46,11 @@ function Login() {
 
   return (
     <main className="page auth-page">
-      <Header title="Login" subtitle="Secure access for seniors and caregivers." />
+      <Header eyebrow="Welcome back" title="Login" subtitle="Secure access for seniors and caregivers." />
       <NavButtons />
 
       <section className="panel auth-panel">
+        <p className="eyebrow">Sign in</p>
         <h2>Sign in to IM OK</h2>
         <p className="auth-subtitle">Log in to access your protected senior and caregiver views.</p>
 

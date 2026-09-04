@@ -26,7 +26,7 @@ function Profile() {
 
   return (
     <main className="page">
-      <Header title="Profile" subtitle="Simple profile details for this MVP." />
+      <Header eyebrow="Your details" title="Profile" subtitle="Simple profile details for this MVP." />
       <NavButtons />
 
       <section className="panel">
@@ -42,6 +42,7 @@ function Profile() {
           </Link>
         </div>
 
+        <p className="eyebrow">Profile</p>
         <h2>{activeSection.title}</h2>
         <ul className="profile-list">
           {activeSection.lines.map((line) => (
