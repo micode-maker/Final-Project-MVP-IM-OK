@@ -5,14 +5,16 @@ import NavButtons from '../components/NavButtons.jsx'
 function NotFound() {
   return (
     <main className="page">
-      <Header title="Page Not Found" subtitle="The route you entered does not exist." />
+      <Header eyebrow="404" title="Page Not Found" subtitle="The route you entered does not exist." />
       <NavButtons />
 
       <section className="panel not-found-panel">
         <p>We couldn't find that page.</p>
-        <Link className="primary-link" to="/">
-          Return Home
-        </Link>
+        <div className="button-row">
+          <Link className="primary-link" to="/">
+            Return Home
+          </Link>
+        </div>
       </section>
     </main>
   )

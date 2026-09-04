@@ -9,13 +9,15 @@ function Home() {
   return (
     <main className="page home-page">
       <Header
+        eyebrow={isAuthenticated ? 'Daily check-in' : 'Welcome to IM OK'}
         title={isAuthenticated ? `Welcome back, ${user.name}` : 'Welcome'}
         subtitle="Daily check-ins with secure access for seniors and caregivers."
       />
       <NavButtons />
 
       <section className="panel">
-        <h2>How it works</h2>
+        <p className="eyebrow">How it works</p>
+        <h2>Three taps, once a day</h2>
         <p>
           Tap your character once each day to confirm you are okay. Caregivers can review status
           and streak progress. Authentication now protects dashboard and profile data.

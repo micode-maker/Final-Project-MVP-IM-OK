@@ -1,9 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Manrope:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@300;400;600&display=swap');
+
+/*
+  IM OK — Ease Health style reference
+  "Botanical greenhouse on cream paper"
+  Flat, shadowless surfaces. Depth comes from layered tinted panels.
+*/
 
 :root {
-  color: #1d3448;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
+  /* Palette */
+  --forest: #0f3e17;
+  --forest-shadow: #0c2f10;
+  --sage: #b1dbb8;
+  --keylime: #e1f4df;
+  --mint: #cfe7d3;
+  --slate: #b6ced5;
+  --cream: #fffefc;
+  --charcoal: #222222;
+  --border-mist: #efeeeb;
+
+  /* Type */
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  /* Radius */
+  --radius-nav: 7px;
+  --radius-card: 14px;
+  --radius-pill: 999px;
+
+  /* Rhythm */
+  --gap-element: 14px;
+  --gap-element-lg: 21px;
+  --pad-card: 28px;
+  --pad-panel: 42px;
+  --section-gap: 28px;
+
+  color: var(--charcoal);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: 400;
   font-synthesis: none;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -18,19 +52,29 @@
 }
 
 body {
-  background: linear-gradient(180deg, #f3ebde 0%, #247d83 100%);
+  background: var(--cream);
   margin: 0;
   min-height: 100vh;
   min-width: 320px;
+  text-wrap: pretty;
 }
 
 a {
-  color: inherit;
+  color: var(--forest);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--forest-shadow);
 }
 
 button,
 input,
 textarea {
   font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 3px;
 }

@@ -69,6 +69,7 @@ function Dashboard() {
   return (
     <main className="page">
       <Header
+        eyebrow="Today"
         title="Senior Dashboard"
         subtitle="Check in daily to receive your motivational quote and keep your streak going!"
       />

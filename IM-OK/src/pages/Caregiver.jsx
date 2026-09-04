@@ -10,12 +10,14 @@ function Caregiver() {
   return (
     <main className="page">
       <Header
+        eyebrow="Care overview"
         title="Caregiver Dashboard"
         subtitle="Monitor your seniors check-in status here."
       />
       <NavButtons />
 
       <section className="panel caregiver-panel">
+        <p className="eyebrow">Quick answer</p>
         <h2>Today's status</h2>
         <StatusBadge
           checkedIn={checkInStatus}
